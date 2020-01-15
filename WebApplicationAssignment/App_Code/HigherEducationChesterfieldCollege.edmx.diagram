@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7c7d082fd9224c54bc03f52eaa1c316c" Name="Diagram1">
+        <EntityTypeShape EntityType="HigherEducationChesterfieldCollegeModel.Comment" Width="1.5" PointX="7.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HigherEducationChesterfieldCollegeModel.Course" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HigherEducationChesterfieldCollegeModel.Image" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="HigherEducationChesterfieldCollegeModel.SubjectArea" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HigherEducationChesterfieldCollegeModel.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="HigherEducationChesterfieldCollegeModel.FK_Comment_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="HigherEducationChesterfieldCollegeModel.FK_Course_Image" ManuallyRouted="false" />
+        <AssociationConnector Association="HigherEducationChesterfieldCollegeModel.FK_Course_SubjectArea" ManuallyRouted="false" />
+        <AssociationConnector Association="HigherEducationChesterfieldCollegeModel.FK_SubjectArea_Image" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="HigherEducationChesterfieldCollegeModel.AdminLogin" Width="1.5" PointX="7.375" PointY="8.125" />
+        <EntityTypeShape EntityType="HigherEducationChesterfieldCollegeModel.FavouriteCourse" Width="1.5" PointX="7.5" PointY="2.375" />
+        <EntityTypeShape EntityType="HigherEducationChesterfieldCollegeModel.UserLogin" Width="1.5" PointX="5.25" PointY="0.75" />
+        <AssociationConnector Association="HigherEducationChesterfieldCollegeModel.FK_FavouriteCourse_Course" />
+        <AssociationConnector Association="HigherEducationChesterfieldCollegeModel.FK_FavouriteCourse_UserLogin" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

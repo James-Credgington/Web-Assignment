@@ -1,0 +1,748 @@
+﻿/* styling for the whole website*/
+
+* {
+        font-family: Arial;
+}
+
+/* styling for the body of the website*/ 
+body {
+    background-color: white;
+    color: #0017af;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* styling for all hyperlinks unless specified throughout the whole website */
+a {
+    text-decoration: none;
+}
+/* styling for all major headings of the website */
+h1 {
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+}
+
+/* styling for all subheadings of the website*/
+h2 {
+    text-align: center;
+}
+
+/* multiple elements including headings, text*/
+h2, h3, h4, p {
+    color: #0017af; /*dark blue blue*/
+}
+
+/* Master Page CSS properties */
+
+/* styling for the sidebar*/
+#Sidebar {
+    background-color: #5ab8ff;
+    width: 15%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    float: left;
+    display: block;
+}
+
+/* styling for fontColour id*/
+#fontColour {
+    width: 100%;
+}
+
+/* styling for headingFontColour id*/
+#headingFontColour {
+    width: 100%;
+}
+
+/* styling for fontSize id*/
+#fontSize {
+    width: 100%;
+}
+
+/* styling for backgroundColour id*/
+#backgroundColour {
+    width: 100%;
+}
+
+/* styling for fontList id*/
+#fontList {
+    width: 100%;
+}
+
+/* first column of themes styling*/
+.column1of2themes {
+    float: left;
+    width: 55%;
+    background-color: #5ab8ff;
+}
+
+/* second column of themes styling*/
+
+.column2of2themes {
+    margin-top: 15px;
+    width: 45%;
+    float: right;
+    background-color: #5ab8ff;
+}
+
+/* first column of the sidebar styling*/
+.column1of2sidebar{
+    float: left;
+    width: 55%;
+    background-color: #5ab8ff;
+}
+
+/* second column of the sidebar styling*/
+.column2of2sidebar {
+    margin-top: 15px;
+    width: 45%;
+    float: right;
+    background-color: #5ab8ff;
+    
+}
+
+/* styling for class dropdown box*/
+.dropDown {
+    width: 100%;
+}
+
+/* styling for sidebarHeadings*/
+.sidebarHeadings {
+    background-color: #5ab8ff;
+    float: left
+}
+
+/* styling for sidebarText*/
+.sidebarText {
+    background-color: #5ab8ff;
+}
+
+/* styling for sidebarTitle*/
+.sidebarTitle {
+    width: 100%;
+    background-color: #5ab8ff;
+}
+
+/*styling for sidebar*/
+aside {
+    background-color: #5ab8ff;
+    display: block;
+}
+
+/* styling for the content page*/
+#MainSection {
+    width: 80%;
+    float: right;
+
+}
+
+/* styling for just the bar of the navigation bar*/
+nav {
+    /*
+    The menu spans the page width, right below the header.
+    At the top and left a few pixels padding is applied to create some room.
+  */
+    width: 100%;
+    height: 100%;
+    background-color: #0017af;
+    color: white;
+}
+
+    /* styling for the links to the navigation bar*/
+    nav a {
+        /*
+    Links in the Menu are white. This gets overriden by styles in chapter 7.*/
+
+        width: 100%;
+        padding-top: 16px;
+        padding-left: 8px;
+        height: 100%;
+        background-color: #0017af;
+        color: white;
+        text-align: center;  
+    }
+
+/* styling for the navigation bar hover colour*/
+.navHover {
+    background-color: #00CCFF;
+    height: 100%;
+}
+
+/* styling for classes for the rest of the navigation bar*/
+.dynamicMenuItem {
+    width: 100%;
+    display: block;
+    background-color: #0017af;
+}
+.dynamicNavItem {
+    width: 100%;
+    display: block;
+    background-color: #0017af;
+}
+.staticMenuItem {
+    width: 100%;
+    display: block;
+    background-color: #0017af;
+}
+.staticNavItem {
+    width: 100%;
+    display: block;
+    background-color: #0017af;
+}
+
+.MainMenu {
+    /*The Menu gets a white border on all four sides. */
+    width: 100%;
+    height: 100%;
+    background-color: #0017af;
+    color: white;
+    text-align: left;
+    display: block;
+}
+
+    .MainMenu ul li {
+        /*Gives the four menu items in the main menu a width of 200px each. */
+        height: 36px;
+        list-style-type: none;
+        width: 300px;
+        text-align: left;
+        display: block;
+        background-color: #0017af;
+    }
+
+/* styling for the footer*/
+.footerPage {
+    width: 100%;
+    clear: both;
+    background-color: #0017af;
+    color: White;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  
+}
+    .footerPage a {
+        background-color: #0017af;
+        color: white;
+    }
+.footer {
+    font-weight: normal;
+    width: 100%;
+    color: White;
+    text-align: center;
+    background-color: #0017af;
+}
+footer {
+    display: inline-block;
+    margin-top: 50px;
+    background-color: #0017af;
+}
+.column1of4Footer {
+    font-weight: normal;
+    margin-left: 7.5%;
+    width: 20%;
+    float: left;
+    text-align: left;
+    background-color: #0017af;
+    color: white;
+    margin-bottom: 20px;
+}
+.column2of4Footer {
+    font-weight: normal;
+    width: 20%;
+    margin-left: 2.5%;
+    float: left;
+    text-align: left;
+    background-color: #0017af;
+    color: white;
+    margin-bottom: 20px;
+}
+.column3of4Footer {
+    font-weight: normal;
+    margin-left: 5%;
+    width: 20%;
+    float: left;
+    text-align: left;
+    background-color: #0017af;
+    color: white;
+    margin-bottom: 20px;
+}
+.column4of4Footer {
+    font-weight: normal;
+    margin-left: 2.5%;
+    width: 20%;
+    float: left;
+    text-align: left;
+    background-color: #0017af;
+    color: white;
+    margin-bottom: 20px;
+}
+.footerHeading {
+    background-color: #0017af;
+    color: white;
+    float: left;
+    margin-left: 7.5%;
+    text-align: left;
+    width: 40%;
+}
+/* styling for all buttons on the master page only*/
+.masterButton {
+    background-color: white;
+    color: #0017af;
+    border-color: #0017af;
+    font-size: 10pt;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    float: right;
+}
+
+/*styling for features on the Homepage only*/
+.introPicture {
+    width: 100%;
+    height: 50%;
+}
+
+
+.youTube {
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+.openDaysVideo {
+    width: 40%;
+    margin-bottom: 1%;
+    float: left;
+   
+}
+.openDays {
+
+    margin-bottom: 30px;
+    height: 150px;
+}
+.openDaysInfo {
+    
+    margin-bottom: 7%;
+    padding-bottom: 20px;
+    width: 55%;
+    float: right;
+    height: 60px;
+
+}
+.headingFindInfo {
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+section.openDays {
+    padding-bottom: 20px;
+    margin-bottom: 10%;
+}
+/* styling for the links at the bottom of the page*/
+img, .column1of3, .column2of3, .column3of3 {
+    margin-bottom: 1%;
+    width: 100%;
+    height: 200px;
+}
+
+.column1of3 {
+    width: 250px;
+    height: 30%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #0017af;
+    border-color: #5ab8ff;
+    float: left;
+}
+.column2of3 {
+    width: 250px;
+    height: 30%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #0017af;
+    border-color: #5ab8ff;
+    float: left;
+}
+.column3of3 {
+    width: 250px;
+    height: 30%;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    background-color: #0017af;
+    border-color: #5ab8ff;
+    float: left;
+}
+h2.moreInfo {
+    text-align: center;
+}
+
+a {
+    color: #5ab8ff;
+}
+.moreInfo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+.favouriteCourses {
+    margin-top: 20px;
+}
+
+/* Styling for classes only affected the About Us Page*/
+.uniCentre {
+    float: left;
+    text-align: left;
+    
+}
+.imgAboutUs {
+    float: left;
+    padding: 10px;
+}
+
+.column1of2 {
+    float: left;
+    width: 40%;
+}
+.column2of2 {
+    margin-top: 50px;
+    float: right;
+    width: 60%;
+    margin-bottom: 50px;
+}
+.column2of2Costa {
+    margin-top: 60px;
+    float: right;
+    width: 60%;
+    margin-bottom: 60px;
+}
+.imgAboutUs {
+    width: 300px;
+    height: 200px;
+    padding-right: 20px;
+}
+.eachFacility {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.column2of2Park, li {
+    color: #0017af;
+}
+
+.imgQRSC {
+    width: 450px;
+    height: 225px;
+    padding-right: 20px;
+}
+
+.column1of2Park {
+    width: 50%;
+    float: left;
+}
+.column2of2Park {
+    margin-top: 20px;
+    margin-bottom : 20px;
+    width: 50%;
+    float: right;
+}
+.column2of2LearningResources {
+    width: 60%;
+    float: right;
+}
+
+/* Web User Control classes only*/
+table {
+    float: left;
+}
+.auto-style2 {
+    width: 10%;
+}
+
+.contactForm {
+    width: 10%;
+    height: 56px;
+}
+
+/*Contact Us Page classes only*/
+.contactUs1of2 {
+    width: 40%;
+    float: left;
+    height: 300px;
+}
+.contactUs2of2 {
+    width: 60%;
+    float: right;
+    height: 300px;
+}
+
+.imgMap {
+    width: 90%;
+}
+.form {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #0017af;
+
+}
+.contactInfo {
+    width: 100%;
+    text-align: left;
+}
+.contactDetails {
+    margin-bottom: 20px;
+}
+
+.errorMessage {
+    color: red;
+    
+}
+.PleaseWait {
+    color: darkgreen;
+    text-align: center;
+}
+.firstColumn {
+    height: 32px;
+}
+
+.enquiryInfo {
+    width: 569px;
+}
+
+.thirdColumn {
+    width: 614px;
+}
+
+/*Admin Master page classes only*/
+.footerHeadingAdmin {
+    background-color: #0017af;
+    color: white;
+    float: left;
+    margin-left: 7.5%;
+    text-align: left;
+    width: 20%;
+}
+.footerAdmin {
+    color: white;
+}
+.column1of3Footer {
+    font-weight: normal;
+    margin-left: 10%;
+    width: 25%;
+    float: left;
+    text-align: left;
+    background-color: #0017af;
+    color: white;
+}
+
+.column2of3Footer {
+    font-weight: normal;
+    width: 25%;
+    margin-left: 2.5%;
+    float: left;
+    text-align: left;
+    background-color: #0017af;
+    color: white;
+}
+
+.column3of3Footer {
+    font-weight: normal;
+    margin-left: 2.5%;
+    width: 25%;
+    float: left;
+    text-align: left;
+    background-color: #0017af;
+    color: white;
+}
+
+/*Admin Homepage classes only*/
+
+
+img, .column1of2Admin, .column2of2Admin {
+    width: 100%;
+    height: 200px;
+}
+
+.column1of2Admin {
+    width: 30%;
+    height: 30%;
+    margin-left: 15%;
+    text-align: center;
+    background-color: #0017af;
+    border-color: #5ab8ff;
+    float: left;
+}
+
+.column2of2Admin {
+    width: 30%;
+    height: 30%;
+    margin-right: 15%;
+    text-align: center;
+    background-color: #0017af;
+    border-color: #5ab8ff;
+    float: right;
+}
+
+/* laying out information for the other admin pages classes only */
+.link {
+    background-color: #0017af;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 30px;
+    float: left;
+    font-size: 14pt;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.displayImage {
+    border: 1px solid;
+    border-color: black;
+}
+
+.column1of2subjectArea {
+    height: 200px;
+    float: left;
+    width: 40%;
+}
+
+.column2of2subjectArea {
+    height: 200px;
+    float: right;
+    width: 60%;
+}
+
+.column1of2course {
+    float: left;
+    width: 70%;
+}
+
+.column2of2course {
+    float: right;
+    width: 30%;
+}
+
+.dropDownAcademic {
+    width: 40%;
+}
+
+.column1of2subjectArea {
+    height: 200px;
+    float: left;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.column2of2subjectArea {
+    margin-top: 20px;
+    margin-left: 10%;
+    height: 180px;
+    float: left;
+    width: 50%;
+    margin-bottom: 50px;
+
+}
+
+
+.displayImage {
+    border: 1px solid;
+    border-color: black;
+    color: #5ab8ff;
+}
+
+.viewComments {
+    float: left;
+    width: 70%;
+    margin-left: 10%;
+
+}
+
+.detailsOfComment {
+    float: left;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.CommentInfo {
+    float: left;
+    font-size: 14pt;
+    border: 1px solid;
+}
+
+.addComment {
+    margin-left: 10%;
+    width: 60%;
+    height: 200px;
+}
+
+.comment {
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+/*Modifying courses, subject areas and comments classes only*/
+.left, h2 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.addData {
+    color: #0017af;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.txt_addData {
+    color: #0017af;
+}
+
+#PlaceHolder1 {
+    color: #0017af;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid;
+    border-color: #5ab8ff;
+}
+
+.editData {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #0017af;
+}
+
+table.editMenu, th.editMenu, td.editMenu {
+    color: #0017af;
+    border: 1px solid;
+    border-spacing: 0;
+    margin-left: 15%;
+    margin-bottom: 15%;
+}
+
+th {
+    background-color: #5ab8ff;
+}
+
+.leftButton {
+    float: left;
+}
+
+.rightButton {
+    float: right;
+}
+.errorMessageLogin {
+    color: red;
+    text-align: center;
+}
+.PleaseWaitLogin {
+    color: green;
+    text-align: center;
+}
